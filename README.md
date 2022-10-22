@@ -1,1 +1,4 @@
-# project4-MN
+# Speech recognition in real time for advertisements in audio streaming
+
+<b> **Abstract** </b>: This research describes a project to classify audio signals captured from a streaming in real time. 
+To carry out the signal processing, a file of approximately eight hours duration was obtained, which was divided into 3-second intervals, allowing to obtain the characteristics of the selected advertisements (slogans). A part of these files will be used as training data of the selected model and the other part for its validation. 28 attributes were initially selected using the spectrogram of the signal. Likewise, a classification neural network for multistate labels is modeled using the MLP Classifier algorithm and applying the softmax output activation function in the last layer.
